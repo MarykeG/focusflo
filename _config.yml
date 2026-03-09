@@ -1,0 +1,8 @@
+# Configuration for GitHub Pages
+site:
+  title: "MM Digital Studio"
+  description: "Your description here"
+  url: "https://yourwebsiteurl.com"
+  author:
+    name: "Your Name"
+    email: "your-email@example.com"
