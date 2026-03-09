@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM Digital Studio Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #222;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            padding: 40px;
+            width: 90%;
+            max-width: 1200px;
+        }
+        h1, h2, h3 {
+            color: gold;
+        }
+        .hero {
+            background: url('logo.png') no-repeat center center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .services, .pricing, .portfolio, .contact {
+            background-color: #333;
+            margin: 20px 0;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .cta {
+            background-color: gold;
+            color: #111;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @media (max-width: 600px) {
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <h1>MM Digital Studio</h1>
+    <p>Your professional portfolio</p>
+</header>
+
+<section class="services section">
+    <h2>Services</h2>
+    <ul>
+        <li>Web Design</li>
+        <li>Branding</li>
+        <li>SEO Optimization</li>
+    </ul>
+</section>
+
+<section class="pricing section">
+    <h2>Pricing</h2>
+    <p>Starting at $500</p>
+</section>
+
+<section class="portfolio section">
+    <h2>Portfolio</h2>
+    <p>Showcasing our best web design work</p>
+    <div>
+        <img src="work-example1.jpg" alt="Work Example 1">
+        <img src="work-example2.jpg" alt="Work Example 2">
+    </div>
+</section>
+
+<section class="contact section">
+    <h2>Contact Us</h2>
+    <p>Email: info@mmdigitalstudio.com</p>
+    <div class="cta">Get in Touch</div>
+</section>
+
+</body>
+</html>
