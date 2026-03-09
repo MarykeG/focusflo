@@ -1,0 +1,30 @@
+.container {
+    background-color: #1a1a1a; /* Dark background */
+    color: #F9D949; /* Gold text color */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #F9D949; /* Gold headers */
+}
+
+.button {
+    background-color: #F9D949; /* Gold buttons */
+    color: #1a1a1a; /* Dark button text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #f2c94c; /* Lighter gold on hover */
+}
+
+.footer {
+    background-color: #1a1a1a; /* Dark footer */
+    color: #F9D949; /* Gold footer text */
+    text-align: center;
+    padding: 10px;
+}
